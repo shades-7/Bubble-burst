@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: rgb(8, 3, 32);
+}
+.score{
+    position: fixed;
+    color: white;
+    margin:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+.container{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    padding:2rem;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.point{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: blueviolet;
+    margin: 20px 0px;
+}
+
+.buttonContainer{
+    width:90%;
+}
+
+button{
+    width:100%;
+    background-color: blueviolet;  
+    padding:0.8rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;     
+    font-weight: 500;
+}
