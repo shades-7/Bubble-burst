@@ -132,7 +132,7 @@ function init(){
 //creating new enemies after every 1 second
 function createEnemies(){
     setInterval(() => {
-        const radius = Math.random() * (30 - 7) + 7  //radius of random number betwee 4 to 30
+        const radius = Math.random() * (30 - 7) + 7  //radius of random number between 4 to 30
         let x;
         let y;
         let color = `hsl(${Math.random() * 360},90%,50%)`
